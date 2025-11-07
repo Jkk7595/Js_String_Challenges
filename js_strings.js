@@ -27,6 +27,20 @@
 
           
     // 3. Replace a Word
-     const input =  "I am sad today"
-     const output = input.replace("sad","happy")
-     console.log(output)
+//      const input =  "I am sad today"
+//      const output = input.replace("sad","happy")
+//      console.log(output)
+
+
+        // 4. Validate Email Format
+        function checker(){
+
+        const str = prompt("Enter a string:")
+
+         if(str.includes("@") && str.includes(".")){
+        console.log("Valid email")
+        }else{
+        console.log("invalid email")
+        }
+        }
+        checker()
