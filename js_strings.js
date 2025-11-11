@@ -33,14 +33,31 @@
 
 
         // 4. Validate Email Format
-        function checker(){
+        // function checker(){
 
-        const str = prompt("Enter a string:")
+        // const str = prompt("Enter a string:")
 
-         if(str.includes("@") && str.includes(".")){
-        console.log("Valid email")
-        }else{
-        console.log("invalid email")
-        }
-        }
-        checker()
+        //  if(str.includes("@") && str.includes(".")){
+        // console.log("Valid email")
+        // }else{
+        // console.log("invalid email")
+        // }
+        // }
+        // checker()
+
+                // 4b Validate Email Format        
+        // const str = prompt("Enter a string:");
+        // if (str.includes("@") && str.includes(".")) {
+        //   console.log("Valid email");
+        // } else {
+        //   console.log("Invalid email");
+        // }
+
+
+                // 5. Ends With a Question?
+ const sentence = prompt("Enter a String: ")
+     if(sentence.endsWith("?")){
+    console.log("This is a Question")
+     }else{
+        console.log("Not a Question")
+     }
