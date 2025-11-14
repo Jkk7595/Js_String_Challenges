@@ -103,15 +103,46 @@
 //   if (count >=9) break; // stop loop at 10
 // }
 
-                // 7. Middle Character(s)
-                let word =prompt ("Enter a word")
-                const length = word.length
-                const mid = Math.floor(length / 2);
-                console.log(mid)
-                if(length % 2===0){
-                console.log(word.slice(mid-1,mid+1))
 
-                }else{
-                        console.log(word[mid])
-                }
+
+                // 7. Middle Character(s)
+                // let word =prompt ("Enter a word")
+                // const length = word.length
+                // const mid = Math.floor(length / 2);
+                // console.log(mid)
+                // if(length % 2===0){
+                // console.log(word.slice(mid-1,mid+1))
+
+                // }else{
+                //         console.log(word[mid])
+                // }
+
+
+
+                // 8. Compare Two Words
+
+                const word1 = prompt("Enter Your 1st Word?")
+                        let case1 = word1.toLowerCase()
+                const word2 = prompt("Enter Your 2st Word?")
+                        let case2 = word2.toLowerCase()
+                        if(case1===case2){
+                                console.log("MATCHED")
+                        }else{
+                                console.log("DID NOT MATCHED")
+                        }
+
+
+                //         planB        
+                //         const word1 = prompt("Enter Your 1st Word?")
+                //         let case1 = word1.toLowerCase()
+                // const word2 = prompt("Enter Your 2st Word?")
+                //         let case2 = word2.toLowerCase()
+                //         if(case1===case2){
+                //                 console.log("MATCHED")
+                //         }else if(case1!==case2){
+                //                 console.log("DID NOT MATCH")
+                //         }else{
+                //                 console.log("Try again")
+                //         }
+                        
 
